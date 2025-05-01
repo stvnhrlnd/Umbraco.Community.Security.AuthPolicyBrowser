@@ -1,0 +1,22 @@
+{
+  "name": "umbraco-community-security-auth-policy-browser",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc && vite build --watch",
+    "build": "tsc && vite build",
+    "generate-client": "node scripts/generate-openapi.js https://localhost:44367/umbraco/swagger/umbracocommunitysecurityauthpolicybrowser/swagger.json"
+  },
+  "devDependencies": {
+    "@hey-api/client-fetch": "^0.4.2",
+    "@hey-api/openapi-ts": "^0.53.11",
+    "@umbraco-cms/backoffice": "^*",
+    "chalk": "^5.3.0",
+    "cross-env": "^7.0.3",
+    "node-fetch": "^3.3.2",
+    "prettier": "3.5.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Umbraco.Community.Security.AuthPolicyBrowser",
+  "name": "Umbraco.Community.Security.AuthPolicyBrowser",
+  "version": "0.1.0",
+  "allowPackageTelemetry": true,
+  "extensions": [
+    {
+      "name": "Umbraco Community Security Auth Policy Browser Bundle",
+      "alias": "Umbraco.Community.Security.AuthPolicyBrowser.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/UmbracoCommunitySecurityAuthPolicyBrowser/umbraco-community-security-auth-policy-browser.js"
+    }
+  ]
+}
